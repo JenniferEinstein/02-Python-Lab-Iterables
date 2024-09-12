@@ -1,9 +1,12 @@
 # Exercise 1: Reverse a list in place.
 def reverse_list(lst):
+    lst.reverse()
+    print(lst)
     pass
 
 # Exercise 2: Find all unique elements in a list.
 def find_unique_elements(lst):
+    
     pass
 
 # Exercise 3: Rotate a list by n positions.

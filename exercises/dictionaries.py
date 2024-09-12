@@ -1,10 +1,14 @@
 # Exercise 1: Create a dictionary from two lists (keys and values).
 def create_dict(keys, values):
+    thisDictionary = zip(keys, values)
+    print(thisDictionary)
     pass
 
 
 # Exercise 2: Merge two dictionaries.
 def merge_dicts(dict1, dict2):
+    married_dicts = dict1 | dict2
+    print(married_dicts)
     pass
 
 # Exercise 3: Find the key of the maximum value in a dictionary.

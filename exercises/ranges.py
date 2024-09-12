@@ -1,5 +1,7 @@
 # Exercise 1: Create a list of numbers using range().
 def create_range(start, end, step=1):
+    answer = range(start, end, step)
+    print(answer)
     pass
 
 # Exercise 2: Sum all elements in a range.
