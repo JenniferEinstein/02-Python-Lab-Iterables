@@ -2,6 +2,7 @@
 def create_dict(keys, values):
     thisDictionary = zip(keys, values)
     print(thisDictionary)
+    return thisDictionary
     pass
 
 
@@ -9,11 +10,20 @@ def create_dict(keys, values):
 def merge_dicts(dict1, dict2):
     married_dicts = dict1 | dict2
     print(married_dicts)
+    return married_dicts
     pass
 
 # Exercise 3: Find the key of the maximum value in a dictionary.
 def max_value_key(d):
+    maxKey = max(d, key=d.get)
+    print(maxKey)
+    return maxKey
     pass
+
+    # maxKey = max(zip(d.values(), d.keys())),[1]
+    # print(maxKey)
+    # return(maxKey)
+    # pass
 
 # Exercise 4: Sort a dictionary by values.
 def sort_dict_by_value(d):

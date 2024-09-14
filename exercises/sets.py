@@ -16,7 +16,9 @@ def intersection_sets(set1, set2):
 
 # Exercise 4: Check if one set is a subset of another.
 def is_subset(set1, set2):
-    if set1 
+    answer=set2.issubset(set1) or set1.issubset(set2)
+    print(answer)
+    return answer
     pass
 
 # Exercise 5: Find the symmetric difference of two sets.
